@@ -17,9 +17,9 @@ def test_c2f():
   assert c2f(100.00) == 212.00
   assert c2f(999.00) == 1830.20
 
-  assert alabo2roman("String") == "ERROR -----> It is not a int"
-  assert alabo2roman("-123") == "ERROR -----> It is not a int"
-  assert alabo2roman("ec500") == "ERROR -----> It is not a int"
+  assert c2f("String") == "ERROR -----> It is not a int"
+  assert c2f("-123") == "ERROR -----> It is not a int"
+  assert c2f("ec500") == "ERROR -----> It is not a int"
 
   
 def test_f2c():
