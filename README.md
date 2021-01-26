@@ -9,3 +9,7 @@
 - Defined testing functions [here ](https://github.com/zhangyanyu0722/EC500_A2/blob/main/Project_1/test_converter.py)
 
 - Please consider as much as possible, for example, 12 inches = 1 foot, so if you enter 14 inches, it will raise up an error or convert it to 1 foot and 2 inches.
+
+- Test all of the possible situations that you can think about, take care of the number of decimals.
+
+- [Optional] [Bonus] Design a UI for this converter.
