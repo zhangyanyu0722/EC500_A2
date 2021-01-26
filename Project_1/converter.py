@@ -1,7 +1,12 @@
-# ======================================
-# Example for EC500 A2 Project 1
-# Temperature C to/from F
-# ======================================
+# !usr/bin/env python
+# ===================================================================================
+# Copyright @2021 Yanyu Zhang zhangya@bu.edu
+# Project1 : 1 Write python program to convert between C and F.
+#            2 Integrate Continuous Build Process to check if your software in each
+#              development stage passed the build process.
+#            3 Integrate unit test and run the unit test in continuous integration 
+#              process.
+# ===================================================================================
 
 import numpy as np
 
