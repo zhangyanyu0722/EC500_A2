@@ -21,9 +21,6 @@ def test_c2f():
   assert c2f("-123") == "ERROR -----> It is not a int"
   assert c2f("ec500") == "ERROR -----> It is not a int"
   
-  print("test some cases")
-
-  
 def test_f2c():
   pass
 
