@@ -12,7 +12,7 @@ import numpy as np
 
 # Fahrenheit = (Celsius * 9/5) + 32
 def c2f(c):
-  if not isinstance(c, float):
+  if not isinstance(c, int):
     return "ERROR -----> It is not a int"
   
   f = (c * 9 / 5) + 32
@@ -20,7 +20,7 @@ def c2f(c):
 
 # Celsius = (Fahrenheit – 32) * 5/9
 def f2c(f):
-  if not isinstance(f, float):
+  if not isinstance(f, int):
     return "ERROR -----> It is not a int"
   
   c = (f - 32) * 5 / 9
