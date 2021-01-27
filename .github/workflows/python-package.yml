@@ -40,5 +40,5 @@ jobs:
         coverage run -m unittest
     - name: Show coverage report
       run: |
-        coverage report -m
+
         coverage html
