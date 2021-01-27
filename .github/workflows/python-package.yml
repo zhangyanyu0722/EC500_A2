@@ -40,5 +40,4 @@ jobs:
         coverage run -m unittest
     - name: Show coverage report
       run: |
-
-        coverage html
+        coverage run -m pytest
